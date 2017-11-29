@@ -1,9 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
 namespace hh {
 	template <typename T>
-	void roll(T *y, int x)
+	void roll(T y, int x)
 	{
 		srand(time(NULL));
 		int i = x, j;
